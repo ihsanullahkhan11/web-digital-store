@@ -167,5 +167,9 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.laptop-name{
+    background-color: aqua;
+    width: 100%;
+}
 
 
