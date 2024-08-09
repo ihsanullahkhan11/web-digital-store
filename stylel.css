@@ -2,97 +2,114 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #dddddd;
+    background-repeat: no-repeat;
+}
+.container{
+    background-repeat: no-repeat;
+}
 
 .navbar {
-    background-color: rgb(202, 142, 223);
+    
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 62%, rgba(254,88,88,1) 100%);
     display: flex;
     justify-content: space-evenly;
     
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
+
 .img-logo img{
     display: flex;
-    width: 140px;
+    width: 150px;
     
 }
 .search{
-    background: #000;
+    
     width: 30%;
 }
 .search > input{
     width: 100%;
    height: 30px;
+   border-radius: 10px;
 }
 
 .heart-cart-logo img{
-    width: 40px;
+    width: 35px;
 
     
 }
 
-.side-navbar{
-    background-color: brown;
-    width: 25%;
-    height: 180px;
- line-height: 30px;
- font-size: 20px;   
-}
+
 .home-content{
-     background: #787777;
+     
      width: 100%;
-     height: 200px;
+     height: 250px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
     
     align-items: center;
 
 }
 
-.All-categories {
-    background-color: blueviolet;
+.side-navbar{
+    
     display: flex;
     justify-content: center;
-    width: 90%;
-    height: 30px;
+    align-items: center;
     
-    top: 0%;
- padding: 0%;
- font-size: 25px;
-
+    flex-direction: column;
+    width: 25%;
+    height: 200px;
+ line-height: 30px;
+ font-size: 20px; 
+ background-color: #fff;
+  
 }
 
+
+   .All-categories {
+    background-color: rgb(207, 90, 90);
+    text-align: center;
+    width: 70%;
+ font-size: 25px;
+
+}  
+
 .Home a{
-    display: flex;
-    margin-left: 60px;
+    color: black;
+    
     text-decoration: none;
 }
 
 .Smart-phone a{
-    display: flex;
-    margin-left: 60px;
+    
+    
     text-decoration: none;
     
 }
 .Laptops a{
-    display: flex;
-    margin-left: 60px;
+    
     text-decoration: none;
     
 }
 
 .Smart-watch a{
-    display: flex;
-    margin-left: 60px;
+    
     text-decoration: none;
     
+} 
+.contact-us a{
+    text-decoration: none;
 }
 
 .home-img img{
-    width: 100%;
-    height: 180px;
+    width: 800px;
+    height: 190px;
       
 }
 
@@ -204,4 +221,13 @@
 .card-3 img{
     width: 150px;
     height: 100px;
+}
+.footer{
+    background-color: chartreuse;
+    width: 100%;
+    height: 150px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
