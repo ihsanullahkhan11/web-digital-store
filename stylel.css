@@ -260,7 +260,7 @@ margin-top: 2px;
     height: 100px;
 }
 .footer{
-    
+    background-color: #a9a6a6;
     width: 100%;
     height: 80px;
     
@@ -273,15 +273,20 @@ margin-top: 2px;
 }
 
 /* all media quary */
-@media only screen and (max-width: 450px) {
-    .home-img img{
-        width: 300px;
-        display: flex;
-        height: 100px;
+@media only screen and (max-width: 480px) {
+    .home-img {
+        width: 100%;
+        height: 100%;
+    
     
     }
+    .home-img img{
+      width: inherit;
+      height: 100px;
+    }
     .home-content{
-        height: 400px;
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
     }
@@ -301,7 +306,9 @@ margin-top: 2px;
         height: 100%;
     }
     .box-3{
-        width: 400px;
+
+        height: 100%;
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
     }
@@ -316,13 +323,159 @@ margin-top: 2px;
     }
     .card-3{
         width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        
         
         
     }
+        
+    
     .smart-watch{
+        height: 100%;
         width: 400px;
     }
     .footer{
         width: 100%;
     }
 }
+
+/* 640 media only */
+
+@media only screen and (max-width: 640px){
+.img-logo img{
+    width: 120px;
+}
+
+.heart-cart-logo img{
+    width: 30px;
+}
+
+.search{
+    width: 300px;
+    
+}
+.navbar{
+    width: 100%;
+
+}
+
+.home-img img{
+    width: 300px;
+    
+}
+
+.side-navbar{
+    width: 220px;
+}
+.smart-Phone{
+    height: 100%;
+}
+
+.loptops{
+    height: 100%;
+}
+
+.smart-watch{
+    height: 100%;
+
+}
+
+}
+
+@media only screen and (max-width: 540px){
+
+.side-navbar{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+    height: 100%;
+}
+.home-content{
+    width: 100%;
+    height: 100%;
+}
+
+.smart-Phone{
+    height: 100%;
+}
+.home-img img{
+    width: 350px;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+    .search{
+        width: 380px;
+    }
+    .home-content{
+        height: 100%;
+    }
+.home-img img{
+    margin-top: 10px;
+    width: 500px;
+}
+.side-navbar{
+    margin-top: 10px;
+    width: 200px;
+}
+
+.smart-Phone{
+    height: 100%;
+}
+.loptops{
+    height: 100%;
+
+}
+.smart-watch{
+    height: 100%;
+}
+}
+
+@media only screen and (max-width: 982px){
+.home-content{
+    height: 100%;
+}
+
+.home-img img{
+    width: 600px;
+}
+.smart-Phone{
+    height: 100%;
+}
+.laptop-p{
+    margin-top: 10px;
+}
+
+.loptops{
+    height: 100%;
+}
+.box2{
+    height: 100%;
+}
+.box-3{
+    height: 100%;
+}
+.smart-watch{
+    height: 100%;
+}
+
+}
+
+@media only screen and (max-width: 818px){
+
+    .home-img img{
+  
+     width: 500px;
+    margin-top: 10px;
+
+
+
+    }
+.side-navbar{
+    margin-top: 10px;
+}
+
+}
+
